@@ -1,5 +1,5 @@
 @mixin fontShape($fontSize, $fontWight, $color) {
-    font-size: $fontSize;
-    font-weight: $fontWight;
-    color: $color;
+    font-size: $fontSize !important;
+    font-weight: $fontWight !important;
+    color: $color !important;
   }

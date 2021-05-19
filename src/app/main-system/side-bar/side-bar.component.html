@@ -1,1 +1,11 @@
-<p>side-bar works!</p>
+<main class="h-100">
+    <section class="text-center h-100">
+        <img width="132px" height="72px" src="assets/photos/bit68 2.png" alt="logo">
+        <div class="list-group text-left">
+            <a [routerLink]="['']" class="list-group-item list-group-item-action active">
+                Time Slots
+            </a>
+            <a [routerLink]="['login']" (click)="onLogout()" class="list-group-item list-group-item-action">Logout</a>
+        </div>
+    </section>
+</main>

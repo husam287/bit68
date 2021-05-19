@@ -1,0 +1,29 @@
+@import 'variables';
+@import 'mixin';
+
+section{
+    box-shadow: 0px 0px 40px #0000001A;
+    padding-top: 75px;
+    div{
+        margin-top: 151px;
+    }
+}
+
+.list-group{
+    border-radius: 0;
+    .list-group-item{
+        border: 0;
+        height: 100%;
+        padding: 12px 54px;
+    }
+    .list-group-item-action{
+        @include fontShape(18px, $medium, #000000);
+    }
+    .list-group-item.active{
+        border: 0 !important;
+        border-right:10px solid !important;
+        border-color: $red-color !important;
+        background-color: rgba($color: $red-color, $alpha: 0.3)
+    }
+    
+}
