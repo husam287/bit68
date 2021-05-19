@@ -4,3 +4,14 @@
 *{
     font-family: $font;
 }
+
+.VHcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redGridBg{
+    background-image: $redgrid-color;
+}
+

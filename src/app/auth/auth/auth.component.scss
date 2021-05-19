@@ -1,0 +1,32 @@
+@import 'variables';
+@import 'mixin';
+
+
+.loginFont{
+    @include fontShape(18px, $medium, #fff);
+}
+
+#card{
+    border: 0 !important;
+    div{
+        margin-top: 29px;
+    }
+}
+
+input{
+    @include fontShape(18px, $regular, #000000);
+    margin-bottom: 20px !important;
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 40px #0000001A !important;
+}
+
+button{
+    margin-top: 66px;
+}
+.btn{
+    border-radius: 10px !important;
+    &:focus{
+        box-shadow:none !important;
+    }
+}
+

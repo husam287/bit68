@@ -11,6 +11,7 @@ import { DaysComponent } from './main-system/workspace/days/days.component';
 import { DayComponent } from './main-system/workspace/days/day/day.component';
 import { ProjectsComponent } from './main-system/workspace/days/day/projects/projects.component';
 import { ProjectComponent } from './main-system/workspace/days/day/projects/project/project.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { ProjectComponent } from './main-system/workspace/days/day/projects/proj
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],
